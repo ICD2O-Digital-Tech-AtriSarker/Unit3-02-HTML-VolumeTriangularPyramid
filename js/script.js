@@ -31,7 +31,7 @@ function Calculate() {
   }
 
   // Display Result
-  volumeResult.innerHTML = "" + volume + " m<sup>2</sup>";
+  volumeResult.innerHTML = "" + volume + " m<sup>3</sup>";
   return;
 }
 
