@@ -1,9 +1,63 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Title</title>
-  </head>
-  <body>
-    <p>Paragraph</p>
-  </body>
+
+<head>
+  <!-- Meta data section -->
+  <meta charset="utf-8">
+  <meta name="description" content="Calculator for Area of Trapezoid, Using Javascript">
+  <meta name="keywords" content="immaculata, icd2o">
+  <meta name="author" content="Atri Sarker">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="./fav_index/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./fav_index/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./fav_index/favicon-16x16.png">
+  <link rel="manifest" href="./fav_index/site.webmanifest">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- Title -->
+  <title>Volume of a Right-Angled Triangular Pyramid in JS</title>
+</head>
+
+<body>
+
+  <!-- Script -->
+  <script defer src="./js/script.js"></script>
+
+  <!-- Header -->
+  <h1>Volume of a Right-Angled Triangular Pyramid in JS</h1>
+
+  <!-- Table For Layout -->
+  <table>
+    <tr>
+      <td>
+        <!-- INPUTS | Default Values of 2,3,4 -->
+        <label for="base1Input">a (m):</label>
+        <input id="base1Input" type="number" name="base1" value="2" step="0.01" min="0" />
+        <br>
+        <label for="base2Input">b (m):</label>
+        <input id="base2Input" type="number" name="base2" value="3" step="0.01" min="0" />
+        <br>
+        <label for="height">h (m):</label>
+        <input id="heightInput" type="number" name="height" value="4" step="0.01" min="0" />
+      </td>
+      <td>
+        <!-- Image that displays the formula -->
+        <img class="formulaImg" src="./images/triangularPyramid.PNG" alt="Diagram of a Triangular Pyramid">
+        <br>
+      </td>
+    </tr>
+  </table>
+
+  <!-- Calculate Button -->
+  <button id="CalculateBtn">Calculate</button>
+
+  <!-- Result -->
+  <p>The Area is <b id="volumeResult"> ? </b> </p>
+
+</body>
+
 </html>
